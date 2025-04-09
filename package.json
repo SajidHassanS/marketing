@@ -24,8 +24,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -50,6 +50,6 @@
     ]
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   }
 }
