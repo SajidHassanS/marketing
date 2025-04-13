@@ -7,6 +7,7 @@ import bismillahjan from "../../assets/imagess/bismillahjan.png";
 import ibrahimkhan from "../../assets/imagess/ibrahimkhan.png";
 import nasirali from "../../assets/imagess/nasirali.png";
 import saddiqalikhan1 from "../../assets/imagess/saddiqalikhan1.png";
+import numankhan from "../../assets/imagess/numankhan.png";
 import zahoorahmad from "../../assets/imagess/zahoorahmad.png";
 import zuhaib from "../../assets/imagess/zuhaib.png";
 import aboutus from "../../assets/Images/about-us.jpg";
@@ -389,6 +390,20 @@ function Home({ header, subheader, subheader1 }) {
                     <div class="team-content">
                       <h3 class="title">SADDIQ ALI KHAN</h3>
                       <span class="post">Project Manger</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-6">
+                <div className="hometeam-box">
+                  <div class="our-team">
+                    <div class="pic">
+                      <img src={numankhan} />
+                    </div>
+                    <div class="team-content">
+                      <h3 class="title">Mr Numan Khan</h3>
+                      <span class="post">Managing Director</span>
                     </div>
                   </div>
                 </div>
