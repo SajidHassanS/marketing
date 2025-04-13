@@ -1,10 +1,13 @@
-export const AboutPageText ={
-   about_subheader:'ABOUT US',
-    about_header:'Enjoy Full-Service Digital Marketing Expertise',
-    about_des1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
-    about_des2:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.',
-    about_des3:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+export const AboutPageText = {
+  about_subheader: "ABOUT US",
+  about_header: "Enjoy Full-Service Digital Marketing Expertise",
 
-    
+  about_des1:
+    "We’re a results-driven digital marketing team dedicated to helping brands grow through smart strategies, bold creativity, and measurable outcomes. From small startups to global brands, we provide personalized marketing solutions that truly make an impact.",
 
-}
+  about_des2:
+    "With years of experience across industries, we combine data, design, and digital tools to deliver powerful results. Our services include SEO, paid ads, social media, branding, and web development — all tailored to your business goals. We believe in long-term partnerships, full transparency, and a commitment to your success. From strategy to execution, we guide you every step of the way with creativity and clarity.",
+
+  about_des3:
+    "At the heart of everything we do is your success. We're not just another marketing agency — we're your digital growth partner, ready to innovate, adapt, and go the extra mile to help your business stand out in a crowded market."
+};

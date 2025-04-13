@@ -1,12 +1,20 @@
 import React from "react";
 import { ServicesText } from "./data";
 import {
-  AiOutlineNotification,
-  AiOutlineFileSearch,
-  AiOutlineTeam,
-  AiOutlineSync,
-  AiOutlineFundView,
-  AiOutlineProject,
+  AiOutlineRise, // Amazon
+  AiOutlineRocket, // Shofipy
+  AiOutlineSend, // Digital Marketing
+  AiOutlineMail, // SEO
+  AiOutlineFundView, // Ecommerce
+  AiOutlineTeam, // Freelancing
+  AiOutlineSketch, // Graphic Design
+  AiOutlineProject, // Video Editing
+  AiOutlineNotification, // Web Development
+  AiOutlineSync, // Advance Computer
+  AiOutlineFileSearch, // QuickBooks
+  AiOutlineBlock, // English Language
+  AiOutlineCamera, // Basic Computing
+  AiOutlineSafety // Safety Course
 } from "react-icons/ai";
 import "./style.css";
 
@@ -29,15 +37,15 @@ export default function Services() {
               {ServicesText.serviceshome_subheader1}
             </p>
           </div>
+
           <div className="row">
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineNotification className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title1}
-                </h4>
+                <AiOutlineRise className="icon1" />
+                <h4>Amazon</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Learn how to sell and scale on Amazon Marketplace with
+                  expert-led training and real-world strategies.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -45,12 +53,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineFundView className="icon2" />
-                <h4>
-                  {ServicesText.services_box_title2}
-                </h4>
+                <AiOutlineRocket className="icon2" />
+                <h4>Shofipy</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Launch your Shopify store and master dropshipping, product
+                  listings, and order fulfillment end to end.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -58,12 +65,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineFileSearch className="icon3" />
-                <h4>
-                  {ServicesText.services_box_title3}
-                </h4>
+                <AiOutlineSend className="icon3" />
+                <h4>Digital Marketing</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  From social media to Google Ads, learn to craft campaigns that
+                  drive leads, engagement, and conversions.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -71,12 +77,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineTeam className="icon3" />
-                <h4>
-                  {ServicesText.services_box_title4}
-                </h4>
+                <AiOutlineMail className="icon4" />
+                <h4>SEO</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Rank higher in Google using ethical SEO tactics that improve
+                  visibility, traffic, and site authority.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -84,12 +89,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineProject className="icon2" />
-                <h4>
-                  {ServicesText.services_box_title5}
-                </h4>
+                <AiOutlineFundView className="icon5" />
+                <h4>Ecommerce</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Master the business of selling online — from inventory to
+                  shipping to digital storefronts and beyond.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -97,12 +101,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title6}
-                </h4>
+                <AiOutlineTeam className="icon6" />
+                <h4>Freelancing</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Build your profile, win gigs, and grow your income on
+                  platforms like Fiverr, Upwork, and Freelancer.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -110,12 +113,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title7}
-                </h4>
+                <AiOutlineSketch className="icon7" />
+                <h4>Graphic Design</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Design stunning visuals using Photoshop, Illustrator, and
+                  Canva to impress clients and boost your brand.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -123,12 +125,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title8}
-                </h4>
+                <AiOutlineProject className="icon8" />
+                <h4>Video Editing</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Create high-quality videos for YouTube, social media, and
+                  brands using tools like Premiere Pro and CapCut.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -136,12 +137,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title9}
-                </h4>
+                <AiOutlineNotification className="icon9" />
+                <h4>Web Development</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Learn to build fast, responsive websites using HTML, CSS,
+                  JavaScript, and React fundamentals.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -149,12 +149,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title10}
-                </h4>
+                <AiOutlineSync className="icon10" />
+                <h4>Advance Computer</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Upgrade your skills with advanced tools and techniques in
+                  Windows, networks, hardware, and more.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -162,12 +161,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title11}
-                </h4>
+                <AiOutlineFileSearch className="icon11" />
+                <h4>QuickBooks</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Manage business finances with ease using QuickBooks — from
+                  invoicing to reporting and taxes.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>
@@ -175,12 +173,11 @@ export default function Services() {
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box-home m-3">
-                <AiOutlineSync className="icon1" />
-                <h4>
-                  {ServicesText.services_box_title12}
-                </h4>
+                <AiOutlineBlock className="icon12" />
+                <h4>English Language (DPEL)</h4>
                 <p>
-                  {ServicesText.services_box_des}
+                  Improve your English fluency for work or academics through
+                  structured DPEL language training.
                 </p>
                 <button className="btn learn-more-btn">Learn More</button>
               </div>

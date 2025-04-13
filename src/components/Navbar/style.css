@@ -1,3 +1,18 @@
+.nav-bg {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional shadow */
+  }
+  
+  .navbar .nav-link {
+    color: black !important;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff !important; /* Bootstrap primary blue or any color you prefer */
+  }
+  
+
 .navbar{
     height: 80px;
 }

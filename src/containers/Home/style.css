@@ -15,6 +15,103 @@
   transition: 0.5s;
   
 }
+
+
+/* === Base Icon Styles === */
+[class^="icon"] {
+  position: relative;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/* === Individual Icons with Unique Colors === */
+.icon1 {
+  background-color: #fff3f0;
+  color: #fe4c1c;
+}
+.icon2 {
+  background-color: #e8e0ff;
+  color: #290390;
+}
+.icon3 {
+  background-color: #d5f5f6;
+  color: #00b4d8;
+}
+.icon4 {
+  background-color: #fff8dc;
+  color: #e49b00;
+}
+.icon5 {
+  background-color: #f0f9ff;
+  color: #1d9bf0;
+}
+.icon6 {
+  background-color: #e0f7e9;
+  color: #00a86b;
+}
+.icon7 {
+  background-color: #fce8f0;
+  color: #e91e63;
+}
+.icon8 {
+  background-color: #fff0f5;
+  color: #db7093;
+}
+.icon9 {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+.icon10 {
+  background-color: #f0fff0;
+  color: #228b22;
+}
+.icon11 {
+  background-color: #f9f3e9;
+  color: #c47f00;
+}
+.icon12 {
+  background-color: #f0f0f0;
+  color: #555;
+}
+.icon13 {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+.icon14 {
+  background-color: #fff5e6;
+  color: #ff6f00;
+}
+
+/* === Hover Effects for All Icons === */
+.services-box:hover .icon1,
+.services-box:hover .icon2,
+.services-box:hover .icon3,
+.services-box:hover .icon4,
+.services-box:hover .icon5,
+.services-box:hover .icon6,
+.services-box:hover .icon7,
+.services-box:hover .icon8,
+.services-box:hover .icon9,
+.services-box:hover .icon10,
+.services-box:hover .icon11,
+.services-box:hover .icon12,
+.services-box:hover .icon13,
+.services-box:hover .icon14 {
+  background-color: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+
+
 .icon1 {
   background-color: #fff3f0;
   position: relative;

@@ -1,5 +1,6 @@
-export const slideshowText ={
-    subheadering1: 'GROWTH YOUR BUSINESS',
-    heading:'We Provide Best Digital Marketing Solutions',
-    subheading:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.'
-}
+export const slideshowText = {
+  subheadering1: "GROW YOUR BUSINESS",
+  heading: "We Provide the Best Digital Marketing Solutions",
+  subheading:
+    "Unlock your brand’s full potential with data-driven strategies, creative campaigns, and performance marketing that delivers real results. Whether you're building awareness or boosting conversions, we’re here to help you grow every step of the way."
+};

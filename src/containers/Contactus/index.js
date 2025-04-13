@@ -5,7 +5,7 @@ import contactimg from "../../assets/Images/cntact-img.jpg";
 import {
   AiOutlineAim,
   AiOutlineComment,
-  AiOutlineFieldTime,
+  AiOutlineFieldTime
 } from "react-icons/ai";
 
 export default function Contactus() {
@@ -59,8 +59,10 @@ export default function Contactus() {
           <h6>GET IN TOUCH</h6>
           <h4>Ready to Get Started?</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
+            Let’s bring your ideas to life. Whether you’re looking to grow your
+            brand, build a new digital presence, or improve your marketing
+            strategy — we’re here to help. Reach out today and take the first
+            step toward success.
           </p>
         </div>
 

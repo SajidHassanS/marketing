@@ -5,7 +5,7 @@ import akbarjan from "../../assets/imagess/akbar.png";
 import bismillahjan from "../../assets/imagess/bismillahjan.png";
 import ibrahimkhan from "../../assets/imagess/ibrahimkhan.png";
 import nasirali from "../../assets/imagess/nasirali.png";
-import saddiqalikhan from "../../assets/imagess/saddiqalikhan.jpg";
+import saddiqalikhan1 from "../../assets/imagess/saddiqalikhan1.png";
 import zahoorahmad from "../../assets/imagess/zahoorahmad.png";
 import zuhaib from "../../assets/imagess/zuhaib.png";
 
@@ -29,8 +29,11 @@ import zuhaib from "../../assets/imagess/zuhaib.png";
               <h6>OUR TEAM</h6>
               <h4>We Help to Acheive Your Business Goal</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna.
+                Whether you're launching a startup or scaling an established
+                brand, our team is here to turn your vision into measurable
+                results. Through strategic planning, digital innovation, and
+                dedicated support, we empower your business to grow, compete,
+                and thrive in a digital-first world.
               </p>
               <button className="btn learn-more-btn">View All</button>
             </div>
@@ -53,7 +56,7 @@ import zuhaib from "../../assets/imagess/zuhaib.png";
             <div className="hometeam-box">
               <div class="our-team">
                 <div class="pic">
-                  <img src={saddiqalikhan} />
+                  <img src={saddiqalikhan1} />
                 </div>
                 <div class="team-content">
                   <h3 class="title">SADDIQ ALI KHAN</h3>
