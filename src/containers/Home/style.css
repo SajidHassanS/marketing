@@ -712,18 +712,18 @@ background-color: #fff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.services-box-home .btn.learn-more-btn {
+/* .services-box-home .btn.learn-more-btn {
   background-color: #007bff;
   color: white;
   padding: 8px 20px;
   font-weight: 600;
   border-radius: 6px;
   text-transform: capitalize;
-}
+} */
 
-.services-box-home .btn.learn-more-btn:hover {
+/* .services-box-home .btn.learn-more-btn:hover {
   background-color: #0056b3;
-}
+} */
 
 
 .contact-box {
