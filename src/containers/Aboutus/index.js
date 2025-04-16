@@ -19,7 +19,7 @@ export default function Aboutus() {
               <p className="mt-3 text-justify">{AboutPageText.about_des1}</p>
               <p className="text-justify">{AboutPageText.about_des2}</p>
 
-              <button className="btn readmore mt-3">Read More</button>
+              {/* <button className="btn readmore mt-3">Read More</button> */}
             </div>
           </div>
         </div>

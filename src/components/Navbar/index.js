@@ -1,65 +1,59 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/imagess/logo.png";
+import "./style.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light nav-bg p-3">
-        {/* ✅ Logo on the left */}
-        <Link className="navbar-brand" to="/">
-          <img src={logo} alt="Logo" height="80" width="80" />
+    <nav className="navbar navbar-expand-lg navbar-dark nav-bg p-3">
+      <div className="container">
+        {/* Logo */}
+        <Link className="navbar-brand" to="/" onClick={handleLinkClick}>
+          <img src={logo} alt="Logo" className="logo-img" />
         </Link>
 
+        {/* Hamburger */}
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          onClick={() => setIsOpen(!isOpen)}
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded={isOpen}
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon white-toggler-icon" />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        {/* Nav Links */}
+        <div
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Aboutus">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Services">
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Price">
-                Price
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/team">
-                Our Team
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Contactus">
-                Contact Us
-              </Link>
-            </li>
+            {[
+              { label: "Home", to: "/" },
+              { label: "About Us", to: "/Aboutus" },
+              { label: "Services", to: "/Services" },
+              { label: "Price", to: "/Price" },
+              { label: "Our Team", to: "/team" },
+              { label: "Contact Us", to: "/Contactus" },
+            ].map(({ label, to }) => (
+              <li className="nav-item" key={label}>
+                <Link className="nav-link" to={to} onClick={handleLinkClick}>
+                  {label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

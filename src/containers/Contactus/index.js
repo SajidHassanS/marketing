@@ -5,60 +5,63 @@ import contactimg from "../../assets/Images/cntact-img.jpg";
 import {
   AiOutlineAim,
   AiOutlineComment,
-  AiOutlineFieldTime
+  AiOutlineFieldTime,
 } from "react-icons/ai";
 
 export default function Contactus() {
   return (
     <div className="contact">
-      <div className="page-title-area">
+      <div className="page-title-area text-center py-4">
         <h1>Contact Us</h1>
       </div>
+
       <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-4 col-6">
-            <div className="contact-box">
-              <div className="icon">
-                <AiOutlineAim />
+        {/* Contact Info Boxes */}
+        <div className="row text-center">
+          <div className="col-lg-4 col-md-6 col-12 mb-4">
+            <div className="contact-box h-100 p-3 shadow rounded">
+              <div className="icon mb-2">
+                <AiOutlineAim size={40} />
               </div>
-              <h3>Our Address</h3>
+              <h4>Our Address</h4>
               <p>
-                City Center Buner, Mardan Raod Near MCB islamic Bank Sawari
-                Buner,
+                City Center Buner, Mardan Road, Near MCB Islamic Bank, Sawari
+                Buner.
               </p>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-6">
-            <div className="contact-box">
-              <div className="icon">
-                <AiOutlineComment />
+          <div className="col-lg-4 col-md-6 col-12 mb-4">
+            <div className="contact-box h-100 p-3 shadow rounded">
+              <div className="icon mb-2">
+                <AiOutlineComment size={40} />
               </div>
-              <h3>Contact</h3>
+              <h4>Contact</h4>
               <p>
                 +92 332 9531204 <br /> +92 346 8001835
               </p>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-6">
-            <div className="contact-box">
-              <div className="icon">
-                <AiOutlineFieldTime />
+          <div className="col-lg-4 col-md-12 col-12 mb-4">
+            <div className="contact-box h-100 p-3 shadow rounded">
+              <div className="icon mb-2">
+                <AiOutlineFieldTime size={40} />
               </div>
-              <h3>Hours of Operation</h3>
+              <h4>Hours of Operation</h4>
               <p>
-                Monday - Friday: 10:00 - 19:00 <br /> Sunday & Saturday: 10:30 -
+                Monday - Friday: 10:00 - 19:00 <br /> Saturday & Sunday: 10:30 -
                 15:00
               </p>
             </div>
           </div>
         </div>
 
-        <div className="contact-header">
+        {/* Contact Header */}
+        <div className="contact-header text-center py-8">
           <h6>GET IN TOUCH</h6>
-          <h4>Ready to Get Started?</h4>
-          <p>
+          <h3>Ready to Get Started?</h3>
+          <p className="mx-auto" style={{ maxWidth: "750px" }}>
             Let’s bring your ideas to life. Whether you’re looking to grow your
             brand, build a new digital presence, or improve your marketing
             strategy — we’re here to help. Reach out today and take the first
@@ -66,72 +69,62 @@ export default function Contactus() {
           </p>
         </div>
 
-        <div className="row mt-2 pt-2">
-          <div className="col-lg-6 col-md-6 col-12 mt-5">
-            <img src={contactimg} className="img-fluid" alt="contact" />
+        {/* Contact Image + Form */}
+        <div className="row align-items-center">
+          <div className="col-lg-6 col-md-6 col-12 mb-4">
+            <img
+              src={contactimg}
+              className="img-fluid rounded shadow"
+              alt="contact"
+            />
           </div>
           <div className="col-lg-6 col-md-6 col-12">
-            <div class="contact-form">
+            <div className="contact-form bg-light p-4 rounded shadow">
               <form id="contactForm">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Your Name"
-                        class="form-control"
-                        value=""
-                      />
-                    </div>
+                <div className="row">
+                  <div className="col-md-6 mb-3">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      className="form-control"
+                    />
                   </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="Your email address"
-                        class="form-control"
-                        value=""
-                      />
-                    </div>
+                  <div className="col-md-6 mb-3">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your Email"
+                      className="form-control"
+                    />
                   </div>
-                  <div class="col-lg-12 col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="number"
-                        placeholder="Your phone number"
-                        class="form-control"
-                        value=""
-                      />
-                    </div>
+                  <div className="col-md-12 mb-3">
+                    <input
+                      type="text"
+                      name="number"
+                      placeholder="Your Phone Number"
+                      className="form-control"
+                    />
                   </div>
-                  <div class="col-lg-12 col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="subject"
-                        placeholder="Your Subject"
-                        class="form-control"
-                        value=""
-                      />
-                    </div>
+                  <div className="col-md-12 mb-3">
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      className="form-control"
+                    />
                   </div>
-                  <div class="col-lg-12 col-md-12">
-                    <div class="form-group">
-                      <textarea
-                        name="text"
-                        cols="30"
-                        rows="5"
-                        placeholder="Write your message..."
-                        class="form-control"
-                        spellcheck="false"
-                      />
-                    </div>
+                  <div className="col-md-12 mb-3">
+                    <textarea
+                      name="message"
+                      rows="5"
+                      placeholder="Write your message..."
+                      className="form-control"
+                      spellCheck="false"
+                    ></textarea>
                   </div>
-                  <div class="col-lg-12 col-sm-12">
-                    <button type="submit" class="btn readmore">
+                  <div className="col-12 text-center">
+                    <button type="submit" className="btn readmore">
                       Send Message
                     </button>
                   </div>
@@ -141,16 +134,19 @@ export default function Contactus() {
           </div>
         </div>
       </div>
-      <div className="container-fluid pt-5">
-        <div className="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.11675417118!2d80.06892448836716!3d13.047487785642284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1618387834124!5m2!1sen!2sin"
-            width="100%"
-            height="550"
-            loading="lazy"
-            className="map-style p-0 m-0"
-          />
-        </div>
+
+      {/* Map Section */}
+      <div className="container-fluid mt-5 px-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.11675417118!2d80.06892448836716!3d13.047487785642284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1618387834124!5m2!1sen!2sin"
+          width="100%"
+          height="500"
+          frameBorder="0"
+          className="border-0"
+          allowFullScreen=""
+          loading="lazy"
+          title="Google Map"
+        ></iframe>
       </div>
     </div>
   );

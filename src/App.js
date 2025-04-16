@@ -11,6 +11,7 @@ import Contactus from "./containers/Contactus";
 import Notfound from "./containers/Notfound";
 import NewsLetters from "./components/NewsLetters";
 import Price from "./containers/Price";
+import ServiceDetail from "./containers/Services/ServiceDetail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
@@ -26,6 +27,12 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/price" component={Price} />
           <Route exact path="/contactus" component={Contactus} />
+          <Route
+            exact
+            path="/services/:serviceId"
+            component={ServiceDetail}
+          />{" "}
+          {/* NEW */}
           <Route exact component={Notfound} />
         </Switch>
         <NewsLetters />

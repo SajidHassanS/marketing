@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css";
 import { slideshowText } from "./data";
 import home_img_right from "../../assets/Images/Home-page-right.jpg";
+import { useHistory } from "react-router-dom";
 
 function Slideshow({ subheadering1, heading, subheading }) {
+  const history = useHistory();
   return (
     <section className="home">
       <div className="container">
@@ -13,7 +15,12 @@ function Slideshow({ subheadering1, heading, subheading }) {
               <h6>{slideshowText.subheadering1}</h6>
               <h3>{slideshowText.heading}</h3>
               <p>{slideshowText.subheading}</p>
-              <button className="btn about-btn mt-5 mb-5">About Us</button>
+              <button
+                className="btn about-btn mt-5 mb-5"
+                onClick={() => history.push("/aboutus")}
+              >
+                About Us
+              </button>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-12">
